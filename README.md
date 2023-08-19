@@ -1,0 +1,1 @@
+# simulador_automato_finito_deterministico
