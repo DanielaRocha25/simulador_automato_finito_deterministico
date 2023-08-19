@@ -60,7 +60,7 @@ def validar(validacao, palavra):
     else:
         print("Erro")
 
-def principal():
+def main():
     automato = lerArquivo()
     estadoInicial = getEstadoInicial(automato)
     alfabeto = getAlfabeto(automato)
@@ -71,4 +71,4 @@ def principal():
     validacao =  checaPalavra(alfabeto, estadoInicial, estadosFinais, transicoes, palavra)
     validar(validacao, palavra)
 
-principal()
+main()
